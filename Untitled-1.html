@@ -1,0 +1,148 @@
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Inter:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900"
+    />
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style>
+      body.dark {
+        background-color: #0f172a; /* bg-slate-900 */
+        color: #fffbfb; /* text-slate-50 */
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 font-inter min-h-screen overflow-x-hidden transition-colors duration-300">
+    <div class="flex flex-col items-center w-full p-4">
+      <div class="flex items-center justify-between bg-slate-50 w-full p-2 pb-1">
+        <div class="flex items-center gap-2">
+          <button id="dark-mode-toggle" class="p-2 rounded-lg text-[#0e141b] hover:text-[#4e7397]">
+            <i class="fas fa-moon text-xl"></i>
+          </button>
+          <button id="language-toggle" class="p-2 rounded-lg text-[#0e141b] hover:text-[#4e7397]">
+            <i class="fas fa-language text-xl"></i>
+          </button>
+        </div>
+        <h2 id="preview-text" class="text-[#0e141b] text-lg font-bold tracking-tight text-center w-full">Preview</h2>
+      </div>
+      <div class="flex flex-col items-center gap-4 w-full p-4">
+        <div class="bg-center bg-cover bg-no-repeat rounded-full w-24 h-24" style="background-image: url('camera24-06-18_.png');"></div>
+        <div class="text-center">
+          <p class="text-[#0e141b] text-lg font-bold">HAMDI MOHAMED</p>
+          <p class="text-[#4e7397] text-sm">Application Developer</p>
+        </div>
+        <div class="flex gap-2 w-full">
+          <button class="flex-1 min-w-[84px] px-4 py-2 bg-[#e7edf3] text-[#0e141b] text-xs font-bold rounded-lg">Export</button>
+          <button class="flex-1 min-w-[84px] px-4 py-2 bg-[#358fe9] text-slate-50 text-xs font-bold rounded-lg">Copy</button>
+        </div>
+      </div>
+      <div class="w-full px-4">
+        <h2 class="text-[#0e141b] text-lg font-bold tracking-tight pt-5 pb-3">About</h2>
+        <p class="text-[#0e141b] text-sm pb-3">App and website developer and developer at Uptodown and soon Google.</p>
+      </div>
+      <div class="w-full px-4">
+        <h2 class="text-[#0e141b] text-lg font-bold tracking-tight pt-5 pb-3">Details</h2>
+        <div class="flex items-center gap-2 bg-slate-50 min-h-[3rem]">
+          <div class="w-8 h-8 flex items-center justify-center bg-[#e7edf3] rounded-lg">
+            <i class="fas fa-house text-[#0e141b] text-xl"></i>
+          </div>
+          <p class="text-[#0e141b] text-sm flex-1 truncate">He lives in the Eastern Zagazig city</p>
+        </div>
+        <div class="flex items-center gap-2 bg-slate-50 min-h-[3rem]">
+          <div class="w-8 h-8 flex items-center justify-center bg-[#e7edf3] rounded-lg">
+            <i class="fas fa-heart text-[#0e141b] text-xl"></i>
+          </div>
+          <p class="text-[#0e141b] text-sm flex-1 truncate">Nothing.</p>
+        </div>
+        <div class="flex items-center gap-2 bg-slate-50 min-h-[3rem]">
+          <div class="w-8 h-8 flex items-center justify-center bg-[#e7edf3] rounded-lg">
+            <i class="fas fa-briefcase text-[#0e141b] text-xl"></i>
+          </div>
+          <p class="text-[#0e141b] text-sm flex-1 truncate">A student at Obour Institutes, programming engineering</p>
+        </div>
+      </div>
+      <div class="w-full px-4">
+        <h2 class="text-[#0e141b] text-lg font-bold tracking-tight pt-5 pb-3">Hobbies</h2>
+        <div class="flex flex-wrap gap-2">
+          <div class="flex items-center gap-2 bg-[#e7edf3] rounded-lg pl-2 pr-3 h-8">
+            <div class="w-4 h-4 text-[#0e141b]">
+              <i class="fas fa-hiking text-sm"></i>
+            </div>
+            <p class="text-[#0e141b] text-xs font-medium">Hiking</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#e7edf3] rounded-lg pl-2 pr-3 h-8">
+            <div class="w-4 h-4 text-[#0e141b]">
+              <i class="fas fa-film text-sm"></i>
+            </div>
+            <p class="text-[#0e141b] text-xs font-medium">Movies</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#e7edf3] rounded-lg pl-2 pr-3 h-8">
+            <div class="w-4 h-4 text-[#0e141b]">
+              <i class="fas fa-utensils text-sm"></i>
+            </div>
+            <p class="text-[#0e141b] text-xs font-medium">Cooking</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#e7edf3] rounded-lg pl-2 pr-3 h-8">
+            <div class="w-4 h-4 text-[#0e141b]">
+              <i class="fas fa-cat text-sm"></i>
+            </div>
+            <p class="text-[#0e141b] text-xs font-medium">Cats</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#e7edf3] rounded-lg pl-2 pr-3 h-8">
+            <div class="w-4 h-4 text-[#0e141b]">
+              <i class="fas fa-car text-sm"></i>
+            </div>
+            <p class="text-[#0e141b] text-xs font-medium">Roadtrip</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#e7edf3] rounded-lg pl-2 pr-3 h-8">
+            <div class="w-4 h-4 text-[#0e141b]">
+              <i class="fas fa-mountain text-sm"></i>
+            </div>
+            <p class="text-[#0e141b] text-xs font-medium">Climbing</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#e7edf3] rounded-lg pl-2 pr-3 h-8">
+            <div class="w-4 h-4 text-[#0e141b]">
+              <i class="fas fa-globe text-sm"></i>
+            </div>
+            <p class="text-[#0e141b] text-xs font-medium">Website Design</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#e7edf3] rounded-lg pl-2 pr-3 h-8">
+            <div class="w-4 h-4 text-[#0e141b]">
+              <i class="fas fa-palette text-sm"></i>
+            </div>
+            <p class="text-[#0e141b] text-xs font-medium">Art</p>
+          </div>
+        </div>
+      </div>
+      <div class="h-5 bg-slate-50"></div>
+    </div>
+    <script>
+      const darkModeToggle = document.getElementById('dark-mode-toggle');
+      const languageToggle = document.getElementById('language-toggle');
+      const previewText = document.getElementById('preview-text');
+      const body = document.body;
+
+      darkModeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark');
+      });
+
+      languageToggle.addEventListener('click', () => {
+        if (body.dir === 'rtl') {
+          body.dir = 'ltr';
+          body.lang = 'en';
+          previewText.textContent = 'Preview';
+        } else {
+          body.dir = 'rtl';
+          body.lang = 'ar';
+          previewText.textContent = 'معاينة';
+        }
+      });
+    </script>
+  </body>
+</html>
